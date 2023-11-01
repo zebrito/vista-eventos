@@ -1,0 +1,72 @@
+body {background: linear-gradient(75deg,#900000, #000000);
+height: 100%}
+.texto{
+  height:100%;
+  width: 20%
+}
+nav img{
+  width: 12%;
+}
+nav {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.linea {
+  align: center;
+  background-color: red;
+  height: 5px;
+}
+
+
+header {
+  color: white;
+  text-align: center;
+  font-family:gabarito, sans-serif;
+  font-weight: 700;
+}
+.eventact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 15px 15px 15px;
+}
+.eventact .card {
+  background-color: #FF0000;
+  color: white;
+  font-family: Gabarito, sans-serif;
+  font-weight: 400;
+  width: 70%;
+  text-align: center;
+}
+.eventact a{
+  color: white;
+}
+.eventact a:hover{
+  color: #FFA302;
+}
+.eventpst {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+  width: 70%;
+}
+.eventpst .card {
+  margin: 10px;
+  text-align: center;
+  color: white;
+  font-family: gabarito;
+  background-color: red;
+}
+
+.eventpst .card:hover {
+
+}
+
+footer {
+  height: 50%;
+}
